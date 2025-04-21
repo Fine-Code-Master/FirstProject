@@ -1,0 +1,248 @@
+/* h1 {
+  color: cornflowerblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Winky Sans", sans-serif;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  /* OR */
+/* border: 2px solid black;
+  border-radius: 10px;
+  border-radius: 50%;
+  margin: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#outer {
+  font-size: 25px;
+}
+
+#inner {
+  font-size: 10px;
+}  */
+
+/*
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Winky Sans", sans-serif;
+}
+
+#navbar {
+  background-color: #001f3f;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#navbar .icon {
+  color: orange;
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 20px;
+  margin-right: 200px;
+}
+
+#navbar button {
+  color: white;
+  background-color: orange;
+  padding: 4px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  margin-right: 200px;
+}
+
+#main-content {
+  background-color: #001f3f;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#main-content h1 {
+  color: orange;
+}
+
+#main-content p {
+  font-size: 20px;
+  text-decoration: wavy;
+}
+
+#main-content button {
+  color: orange;
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10%;
+  font-weight: 900;
+}
+
+#footer {
+  background-color: #011224;
+  color: white;
+  padding: 50px;
+  margin: 20px;
+}
+
+#footer p {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 150px;
+  font-size: 16px;
+}
+*/
+
+/* #container {
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#div1 {
+  text-align: center;
+  background-color: cadetblue;
+  width: 40%;
+  height: 400px;
+}
+
+#div2 {
+  margin-left: 30%;
+  text-align: center;
+  background-color: lightblue;
+  width: 40%;
+  height: 400px;
+} */
+
+/* div {
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  padding: 20px;
+  display: inline-block;
+} */
+
+/* * {
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+  padding-top: 30px;
+  background-color: rgb(0, 0, 0);
+  height: 60px;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 300px;
+  color: white;
+}
+
+#Logo {
+  margin-left: 30px;
+  font-size: 25px;
+  color: orange;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  height: 35px;
+  width: 90px;
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+}
+
+input {
+  width: 150px;
+  height: 25px;
+  border: none;
+  padding-left: 10px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 900px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 40px;
+  padding: 30px;
+  background-color: rgb(248, 178, 47);
+  text-align: center;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 80px;
+  margin-bottom: 80px;
+}
+
+#container h1 {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 1000;
+  margin-bottom: 10px;
+}
+
+#footer {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 300px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 25px;
+}
+
+#footer-header {
+  display: inline-block;
+  padding-top: 100px;
+  font-size: 20px;
+  width: 600px;
+}
+
+#footer-middle {
+  display: inline-block;
+  margin-left: 700px;
+  font-size: 20px;
+  padding-top: -800px;
+} */
+
+div {
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+#box1 {
+  background-color: crimson;
+  position: static;
+}
+
+#box2 {
+  background-color: rebeccapurple;
+  position: relative;
+  top: 10px;
+}
+
+#box3 {
+  background-color: teal;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#box4 {
+  background-color: goldenrod;
+  position: absolute;
+  top: 10px;
+}
