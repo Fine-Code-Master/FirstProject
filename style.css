@@ -216,7 +216,7 @@ input {
   padding-top: -800px;
 } */
 
-div {
+/* div {
   height: 100px;
   background-color: black;
   color: white;
@@ -245,4 +245,67 @@ div {
   background-color: goldenrod;
   position: absolute;
   top: 10px;
+} */
+
+div {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+#box1 {
+  background-color: crimson;
+  background-image: url("image/fox.jpg");
+}
+
+#box2 {
+  background-color: rebeccapurple;
+}
+
+#box3 {
+  background-color: teal;
+}
+
+#box4 {
+  background-color: goldenrod;
+} */
+
+body {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+#container {
+  width: 800px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#box1 {
+  background-color: crimson;
+}
+
+#box2 {
+  background-color: rebeccapurple;
+}
+
+#box3 {
+  background-color: teal;
+}
+
+#box4 {
+  background-color: goldenrod;
+}
+
+#box5 {
+  background-color: lightblue;
 }
