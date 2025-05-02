@@ -247,7 +247,7 @@ input {
   top: 10px;
 } */
 
-div {
+/* div {
   height: 100px;
   width: 100px;
   display: inline-block;
@@ -256,6 +256,8 @@ div {
 #box1 {
   background-color: crimson;
   background-image: url("image/fox.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #box2 {
@@ -276,18 +278,21 @@ body {
 
 div {
   text-align: center;
-  height: 100px;
-  width: 100px;
-  display: inline-block;
+  height: 50px;
+  width: 150px;
+  display: inline;
   border: 1px solid black;
 }
 
 #container {
-  width: 800px;
-  height: 200px;
+  width: 600px;
+  height: 600px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  /* align-content: flex-start; */
 }
 
 #box1 {
